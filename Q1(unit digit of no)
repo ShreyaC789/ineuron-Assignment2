@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+   int a=1234,u;
+   u=a%10;
+   printf("The Unit digit of %d is %d",a,u);
+   return 0;
+}
