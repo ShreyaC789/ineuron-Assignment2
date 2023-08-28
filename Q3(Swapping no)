@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+   int a,n,temp;
+   printf("Enter 1st and 2nd number\n");
+   scanf("%d %d",&a,&n);
+   printf("Value of 1st no is %d\nValue of 2nd no is %d\n",a,n);
+   temp=a;
+   a=n;
+   n=temp;
+   printf("After Swapping\n");
+   printf("Value of 1st no is %d\nValue of 2nd no is %d",a,temp);
+   return 0;
+}
